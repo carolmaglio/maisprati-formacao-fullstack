@@ -1,6 +1,5 @@
-// first hello world
-
 console.log('Hello World!')
+console.log("Hello World!")
 console.log("Hello World!")
 console.log(`Hello World!`) // template string
 
