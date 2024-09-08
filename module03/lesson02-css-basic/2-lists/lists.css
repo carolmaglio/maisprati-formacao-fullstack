@@ -1,0 +1,67 @@
+/* Estilos aplicados ao corpo (body) da página.
+   Define a fonte padrão, altura da linha para melhor leitura,
+   e remove margens e espaçamentos padrão. Também define uma cor de fundo
+   e a cor do texto padrão. */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f9;
+    color: #000;
+}
+
+/* Estilos para a tag dl (Lista de Definição).
+   Adiciona margens e preenchimento para espaço ao redor,
+   define uma cor de fundo azul claro e uma borda esquerda azul mais escura. */
+
+dl {
+    margin: 20px;
+    padding: 10px;
+    background-color: pink;
+    border-left: 5px solid palevioletred;
+}
+
+/* Estilos para a tag dt (Termo de Definição na Lista de Definição).
+   Aumenta o peso da fonte (negrito), define o tamanho da fonte e
+   adiciona margem superior para espaçamento entre os itens. */
+dt {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 5px;
+}
+
+/* Estilos para a tag dd (Descrição do Termo).
+   Aplica um estilo itálico ao texto e muda a cor do texto para um tom de azul. */
+dd {
+    font-style: italic;
+    color: palevioletred;
+}
+
+/* Estilos para a lista não ordenada (ul) com a classe "listaNaoOrdenada".
+   Remove o estilo padrão dos marcadores, adiciona margens e preenchimento para espaçamento.
+   Define uma borda ao redor, muda a fonte e aplica uma cor de fundo rosa claro. */
+ul.listaNaoOrdenada {
+    list-style-type: none;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid palevioletred;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: pink;
+}
+
+/* Estilos para os itens da lista não ordenada (li) dentro da ul com a classe "listaNaoOrdenada".
+   Adiciona espaçamento inferior e um preenchimento à esquerda. */
+.listaNaoOrdenada li {
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+/* Estilos para um ul aninhado dentro de uma ol (lista ordenada).
+   Muda a cor do texto para azul e o fundo para um tom de verde amarelado. */
+ol > ul {
+    color:palevioletred;
+    background-color: pink;
+    border: 1px solid palevioletred
+}
