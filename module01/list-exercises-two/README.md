@@ -1,4 +1,4 @@
-<h2>Instruções para Configuração e Execução dos Exerícios</h2>
+<h2>Instruções para Configuração e Execução da Lista de Exercícios 2</h2>
 
 ###
 
