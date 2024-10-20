@@ -1,4 +1,4 @@
-Atividade 3 - Criando uma Página Web Simples
+Criando uma Página Web Simples
 
 Objetivo: Desenvolver uma página web utilizando HTML e CSS que contenha os principais elementos de uma estrutura de site.
 Instruções:
